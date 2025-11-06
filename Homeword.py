@@ -7,7 +7,7 @@
 # ~45 minutes
 
 
-
+# Not
 '''
 # Your hint for the password
 hint = 'Your hint is a top lane league champ, who is the king.'
@@ -27,7 +27,7 @@ if not guess == "Sett":
     
 '''
 
-
+# And 
 '''
 # Asks for your age and if you have a license
 
@@ -45,7 +45,7 @@ else:
 '''
 
 
-
+# Or
 '''
 
 # Asks your favorite champ
@@ -59,7 +59,7 @@ else:
 ''' 
 
 
-
+# And or
 # Define your lane and your favorite league champ
 
 lane = str(input('What lane do you enjoy playing the most?: '))
@@ -70,7 +70,7 @@ champ = str(input("What champ do you like playing in that lane?: "))
 # Picks what to say based off what you say
 if (lane == "Jungle" or lane == "Jg" or lane == "jg" or lane == "jungle" or lane == "Jungler" or lane == "jungler") and champ == "Viego" or champ == "Lillia":
     print("You are awesome, I appreciate your taste in champions.")
-if (lane == "Jungle" or lane == "JG" or lane == "Jg" or lane == "jg" or lane == "jungle" or lane == "Jungler" or lane == "jungler") and champ == "Shaco" or champ == "shaco" or champ == "Kayn" or champ == "kayn":
+elif (lane == "Jungle" or lane == "JG" or lane == "Jg" or lane == "jg" or lane == "jungle" or lane == "Jungler" or lane == "jungler") and champ == "Shaco" or champ == "shaco" or champ == "Kayn" or champ == "kayn":
     print("Dishonor on you and your family you skilless pumpkin eater")
 else:
     print("You're alright IG, maybe pick a better lane/champ..")
