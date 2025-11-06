@@ -66,9 +66,11 @@ lane = str(input('What lane do you enjoy playing the most?: '))
 
 champ = str(input("What champ do you like playing in that lane?: "))
 
+
+# Picks what to say based off what you say
 if (lane == "Jungle" or lane == "Jg" or lane == "jg" or lane == "jungle" or lane == "Jungler" or lane == "jungler") and champ == "Viego" or champ == "Lillia":
     print("You are awesome, I appreciate your taste in champions.")
-if (lane == "Jungle" or lane == "JG") and champ == "Shaco" or champ == "shaco" or champ == "Kayn" or champ == "kayn":
+if (lane == "Jungle" or lane == "JG" or lane == "Jg" or lane == "jg" or lane == "jungle" or lane == "Jungler" or lane == "jungler") and champ == "Shaco" or champ == "shaco" or champ == "Kayn" or champ == "kayn":
     print("Dishonor on you and your family you skilless pumpkin eater")
 else:
     print("You're alright IG, maybe pick a better lane/champ..")
