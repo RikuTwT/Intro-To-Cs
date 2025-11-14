@@ -6,5 +6,6 @@
  
  # 8:42 - 8:54
  
+# Prints the letters of banana
 for x in "banana":
     print (x)
