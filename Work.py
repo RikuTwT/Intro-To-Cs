@@ -4,7 +4,7 @@
 
 # File I/O practice
 
-# 2:23 
+# 2:23 - 2:51
 
 file = open("Myfile.txt",'w')
 content = str(input("Write a word: "))
